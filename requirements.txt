@@ -1,5 +1,2 @@
-pandas==2.2.1
-Pillow==10.2.0
 streamlit==1.31.1
-streamlit_lottie==0.0.5
-streamlit_option_menu==0.3.12
+yfinance==0.2.36

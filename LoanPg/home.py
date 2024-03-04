@@ -1,4 +1,6 @@
 import streamlit as st
+import time
+
 st.title(''':orange[LOAN PREDICTION APP]''')
 from DataClass.loan import readData, process_df
 
@@ -79,6 +81,9 @@ with st.form('My Prediction Form'):
                                  ,loan_term, credit_history, property_area, total_income]]) 
         
         st.write("---")
+        with st.spinner('Wait for it...'):
+            time.sleep(2)
+            st.success('Done!')
         if result==0:
             st.markdown('''You are :orange[preapproved] for the this loan based on the information provided''')
         else:

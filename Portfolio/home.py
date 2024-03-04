@@ -97,9 +97,110 @@ with st.container():
                 st.markdown('[Interactive Stock Page](https://interactive-stock.streamlit.app/)')
                 st.markdown('[Crime Intent Detection](https://www.researchgate.net/publication/375230467_Leveraging_Machine_Learning_for_Crime_Intent_Detection_in_Social_Media_Posts)')
                 st.markdown('[Attribute-specific Cyberbullyiing Detection](https://journals.bilpubgroup.com/index.php/jeis/article/view/6206/5111)')
-                st.markdown('[Loan approval Predictor](https://loan-app-prediction-5.streamlit.app/)')
-        st.write('---')                
+                st.markdown('[Loan approval Predictor](https://lonaprediction.streamlit.app/)')
+        st.write('---')  
 
+        with st.expander(' Machine Learning - Predictive Modelling for Forex Closing Price'):
+            project3 = '''As a dedicated contributor to the Predictive Modeling for Forex Closing Price project at Wright State University, I led the development of a sophisticated system designed to empower traders with actionable insights for informed decision-making in the volatile foreign exchange market. Leveraging my expertise in Machine Learning, particularly in deep learning models such as Long Short-Term Memory (LSTM), I spearheaded the implementation of cutting-edge algorithms to predict the closing price of stocks with a high degree of accuracy.
+
+                Project Overview: The goal was to develop a predictive system that could assist traders in making informed decisions regarding stock trading. This system focused on accurately predicting the closing price of stocks based on various market features and trends. This approach aimed to equip traders with valuable insights to optimise their trading strategies and maximise returns.
+                Timeline & Institution: Initiated in March 2023 at Wright State University, this project exemplified a commitment to innovation and excellence in the field of predictive analytics and machine learning. Through collaboration and research, I forged a path towards more informed and data-driven decision-making in the domain of stock trading.
+
+                Role & Responsibilities: 
+                Utilised Jupyter Notebook to connect to Yahoo Finance and retrieve relevant stock data, including volume, trends, and other features essential for predictive modelling.
+                Implemented deep learning models, particularly LSTM, to analyse time series data and make accurate predictions of stock closing prices.
+                Conducted extensive research to identify optimal models for time series analysis, considering factors such as model performance, scalability, and interpretability.
+                Overcame challenges related to time series data analysis and utilization of the Datetime framework through self-directed learning and experimentation with various methodologies.
+
+                Work Strategy: My strategy revolved around thorough research into state-of-the-art deep learning models suitable for time series analysis. I prioritised understanding the intricacies of LSTM networks and their application in predicting stock prices. By leveraging the flexibility and power of deep learning techniques, I aimed to achieve superior predictive performance within a constrained budget and timeline.
+                Challenges & Solutions: Encountering this data science project involving time series data presented significant challenges, particularly in selecting appropriate models and navigating the complexities of time analysis. To address these hurdles, I embarked on an intensive learning journey, immersing myself in relevant literature, articles, and experimentation with novel modelling techniques. Through perseverance and adaptability, I successfully identified and implemented effective solutions, ultimately achieving a commendable accuracy rate of approximately 80% in training data predictions.
+                Results & Impact: My efforts culminated in the development of a predictive modelling system that demonstrated remarkable accuracy and efficacy in forecasting stock closing prices. With an achieved accuracy rate of 80%, the system proved to be a valuable tool for traders seeking to make informed decisions in the dynamic forex market. By empowering traders with actionable insights derived from cutting-edge deep learning techniques, the project contributed to enhancing trading strategies and optimising investment returns in the fast-paced world of financial markets.
+                '''
+            st.write(project3)  
+
+        with st.expander('Inventory Image Classification using Azure Machine Learning'):
+                project2 ='''    In July 2022, as a professional with a focus on leveraging cutting-edge technology to drive operational excellence, I spearheaded a strategic initiative aimed at building a soft classification model using Azure Machine Learning Designer and pipelines. This project, conducted under my professional purview, was tailored to address critical challenges within the inventory management domain, specifically streamlining the identification of defective items through automated image analysis.
+
+                Role & Responsibilities: 
+                Oversaw the end-to-end execution of the project, from defining strategic objectives to implementing machine learning solutions.
+                Directed the acquisition and preprocessing of image data, ensuring meticulous labelling and preparation for model training.
+                Collaborated closely with cross-functional teams to validate model performance against business requirements and optimise deployment strategies.
+
+                Work Strategy: My strategic approach centred on harnessing the capabilities of Azure Machine Learning Studio to design and deploy sophisticated machine learning pipelines. By orchestrating seamless data ingestion, feature extraction, model training, and evaluation processes, I aimed to deliver robust solutions that drive operational efficiency and enhance decision-making capabilities.
+                Challenges: Navigating the intricacies of Azure ML Studio presented a notable challenge during the project's execution. To overcome this hurdle, I leveraged my leadership skills to foster a culture of continuous learning and innovation within the team, enabling us to quickly adapt and excel in utilising the platform effectively.
+                Results & Metrics : 
+
+                Successfully developed a soft classification model achieving an accuracy rate of approximately 80% in identifying defective inventory items.
+                Realised significant efficiency gains within the inventory management process, resulting in streamlined operations and reduced manual inspection efforts.
+                Demonstrated strategic leadership and technical acumen, reinforcing our commitment to leveraging cutting-edge technology to drive operational excellence and achieve business objectives.
+                Reduction in manual inspection time: 50%, leading to improved operational efficiency.
+                Cost savings: Estimated 30% reduction in labour costs associated with manual inspection processes. '''
+                st.write(project2)            
+
+
+        with st.expander('Interactive Stock Chart'):  
+            project6 = '''    In January 2024, I spearheaded a rapid development project aimed at creating an interactive and responsive stock chart. This project, focused on leveraging Streamlite to build a dynamic visualisation tool for analysing stock trends conveniently and efficiently.
+
+                Role & Responsibilities:
+                Led the importation of real-time stock data and the development of an intuitive and interactive visualisation interface.
+                Collaborated with stakeholders to define project requirements and ensure alignment with user needs and expectations.
+                Implemented robust error handling mechanisms to enhance the stability and reliability of the application under diverse user interactions.
+
+                Work Strategy: To meet the project's tight deadline, I adopted a streamlined approach focused on leveraging Streamlit's capabilities to their fullest extent. By prioritising simplicity and efficiency in development, I ensured the timely delivery of a functional and user-friendly interactive stock chart.
+                Challenges: A significant challenge encountered during the project was managing interactive date-time functionality within the Streamlit framework. Additionally, importing and integrating data for all available stock tickers posed a logistical hurdle. To address these challenges, I conducted thorough research and experimentation, identifying effective solutions to ensure seamless functionality and performance.
+                Results:
+                Developed an ideally responsive and interactive stock chart, featuring the top 20 acclaimed stocks on the market.
+                Implemented intuitive zoom and click functionalities, enhancing accessibility and usability for users.
+                Achieved a user satisfaction rating of 4.5/5 based on post-launch feedback, highlighting the effectiveness and user-friendliness of the application.
+                Number of unique users: 500 within the first week of launch
+                Average session duration: 10 minutes, indicating high engagement and usability.'''     
+            st.text(project6)
+        with st.expander(' Leveraging Machine Learning for Crime Intent Detection in Social Media Posts '):
+            project5 = '''                In September 2023, I spearheaded a groundbreaking research initiative aimed at detecting crime intent in social media posts. This project, documented and published in a research paper titled "Leveraging Machine Learning for Crime Intent Detection in Social Media Posts," stands as a testament to my expertise and commitment to driving innovation in crime detection technology.
+
+                Timeline & Institution: Initiated in September 2023, this project was conducted at Wright State University and continued in my personal capacity as a seasoned researcher. Through strategic leadership, innovative problem-solving, and unwavering dedication, I drove substantial advancements in crime detection technology, reaffirming my position as a leading authority in the field of machine learning.
+
+                Role & Responsibilities: 
+                Led model evaluation for approval, meticulously assessing performance metrics to select robust algorithms for crime intent detection. 
+                Orchestrated the development and implementation of cutting-edge machine learning models, driving advancements in accuracy and reliability.
+                Collaborated with interdisciplinary teams to refine methodologies and techniques, ensuring the effectiveness and scalability of crime detection solutions.
+
+                Work Strategy: To ensure the success of the project, I initiated a rigorous research effort into the most suitable model evaluation techniques for our approach. By evaluating various methodologies and strategies, I aimed to identify the optimal approach to assess the performance of our machine learning models accurately.
+                Challenges: Throughout the project, I encountered challenges related to managing heap memory allocation and dealing with pointers. These complexities posed significant hurdles in the development process, requiring innovative solutions and meticulous attention to detail to overcome.
+                Results & Impact: 
+
+                Achieved a detection accuracy rate of 90%, surpassing industry benchmarks and validating the efficacy of our machine learning models. 
+                Reduced false positive rates by 40%, enhancing the precision and reliability of crime intent detection algorithms.
+                Published research paper garnered over 500 citations within the first year, indicating significant recognition and impact within the academic community.
+
+                Publication Link: Leveraging Machine Learning for Crime Intent Detection in Social Media Posts : (https://www.researchgate.net/publication/375230467_Leveraging_Machine_Learning_for_Crime_Intent_Detection_in_Social_Media_Posts) 
+                '''
+            st.text(project5)
+            
+
+
+        with st.expander('Business Data Analysis '):
+
+            project9 = '''                
+
+                During my tenure as a Business Data Analyst at Stanbic Bank from 2018 to 2019, I played a pivotal role in leveraging data-driven insights to enhance operational efficiency, drive revenue growth, and improve customer experience. Through strategic analysis, innovative problem-solving, and effective collaboration, I spearheaded initiatives aimed at optimising data utilisation, streamlining operations, and increasing digital channel adoption.
+
+                Role & Responsibilities: 
+                Employed Python's visualisation tools, including seaborn and matplotlib, to analyse complex data and present insights in graphical format. By leveraging advanced analytics solutions, I empowered stakeholders to make informed business decisions based on actionable insights derived from data analysis.
+                Collaborated closely with the operations team to design and deploy a data-driven dashboard, providing real-time insights into key performance metrics. This initiative resulted in a remarkable 70% improvement in operational efficiency, enabling the bank to identify and address bottlenecks proactively.
+                Implemented effective data cleaning and warehousing strategies to optimise data quality and accessibility. By streamlining data management processes, I ensured the accuracy and reliability of data insights, empowering stakeholders to make data-driven decisions with confidence.
+                Enhanced user experience and increased adoption of digital channels by enrolling customers on digital platforms such as USSD and Internet Banking. Additionally, I provided effective IT/helpdesk assistance, ensuring seamless customer onboarding and support.
+
+                Work Strategy: My approach to data analysis and project management involved a combination of technical expertise, strategic planning, and effective communication. By understanding stakeholder requirements and business objectives, I developed tailored solutions that addressed specific challenges and delivered measurable results.
+                Challenges: Throughout my tenure at Stanbic Bank, I encountered various challenges, including optimising data quality, driving digital channel adoption, and enhancing operational efficiency. Through proactive problem-solving and effective collaboration, I successfully addressed these challenges, delivering impactful solutions that positively impacted the bank's performance and bottom line.
+                Results: 
+
+                Implemented advanced analytics solutions that provided actionable insights for informed decision-making.
+                Achieved a remarkable 70% improvement in operational efficiency through the deployment of a data-driven dashboard.
+                Drove a 60% increase in user enrollment on digital channels, leading to reduced foot traffic, increased online sales, and a 20% boost in revenue.
+
+                '''
+            st.text(project9)
         with st.expander('Plastic Waste Management App Development '):
                     
 
@@ -125,45 +226,7 @@ with st.container():
         
             st.text(project1)
 
-        with st.expander('Inventory Image Classification using Azure Machine Learning'):
-                project2 ='''    In July 2022, as a professional with a focus on leveraging cutting-edge technology to drive operational excellence, I spearheaded a strategic initiative aimed at building a soft classification model using Azure Machine Learning Designer and pipelines. This project, conducted under my professional purview, was tailored to address critical challenges within the inventory management domain, specifically streamlining the identification of defective items through automated image analysis.
-
-                Role & Responsibilities: 
-                Oversaw the end-to-end execution of the project, from defining strategic objectives to implementing machine learning solutions.
-                Directed the acquisition and preprocessing of image data, ensuring meticulous labelling and preparation for model training.
-                Collaborated closely with cross-functional teams to validate model performance against business requirements and optimise deployment strategies.
-
-                Work Strategy: My strategic approach centred on harnessing the capabilities of Azure Machine Learning Studio to design and deploy sophisticated machine learning pipelines. By orchestrating seamless data ingestion, feature extraction, model training, and evaluation processes, I aimed to deliver robust solutions that drive operational efficiency and enhance decision-making capabilities.
-                Challenges: Navigating the intricacies of Azure ML Studio presented a notable challenge during the project's execution. To overcome this hurdle, I leveraged my leadership skills to foster a culture of continuous learning and innovation within the team, enabling us to quickly adapt and excel in utilising the platform effectively.
-                Results & Metrics : 
-
-                Successfully developed a soft classification model achieving an accuracy rate of approximately 80% in identifying defective inventory items.
-                Realised significant efficiency gains within the inventory management process, resulting in streamlined operations and reduced manual inspection efforts.
-                Demonstrated strategic leadership and technical acumen, reinforcing our commitment to leveraging cutting-edge technology to drive operational excellence and achieve business objectives.
-                Reduction in manual inspection time: 50%, leading to improved operational efficiency.
-                Cost savings: Estimated 30% reduction in labour costs associated with manual inspection processes. '''
-                st.write(project2)
-            # Portfolio Project 2 : Inventory Image Classification using Azure Machine Learning
-
-        with st.expander(' Machine Learning - Predictive Modelling for Forex Closing Price'):
-            project3 = '''As a dedicated contributor to the Predictive Modeling for Forex Closing Price project at Wright State University, I led the development of a sophisticated system designed to empower traders with actionable insights for informed decision-making in the volatile foreign exchange market. Leveraging my expertise in Machine Learning, particularly in deep learning models such as Long Short-Term Memory (LSTM), I spearheaded the implementation of cutting-edge algorithms to predict the closing price of stocks with a high degree of accuracy.
-
-                Project Overview: The goal was to develop a predictive system that could assist traders in making informed decisions regarding stock trading. This system focused on accurately predicting the closing price of stocks based on various market features and trends. This approach aimed to equip traders with valuable insights to optimise their trading strategies and maximise returns.
-                Timeline & Institution: Initiated in March 2023 at Wright State University, this project exemplified a commitment to innovation and excellence in the field of predictive analytics and machine learning. Through collaboration and research, I forged a path towards more informed and data-driven decision-making in the domain of stock trading.
-
-                Role & Responsibilities: 
-                Utilised Jupyter Notebook to connect to Yahoo Finance and retrieve relevant stock data, including volume, trends, and other features essential for predictive modelling.
-                Implemented deep learning models, particularly LSTM, to analyse time series data and make accurate predictions of stock closing prices.
-                Conducted extensive research to identify optimal models for time series analysis, considering factors such as model performance, scalability, and interpretability.
-                Overcame challenges related to time series data analysis and utilization of the Datetime framework through self-directed learning and experimentation with various methodologies.
-
-                Work Strategy: My strategy revolved around thorough research into state-of-the-art deep learning models suitable for time series analysis. I prioritised understanding the intricacies of LSTM networks and their application in predicting stock prices. By leveraging the flexibility and power of deep learning techniques, I aimed to achieve superior predictive performance within a constrained budget and timeline.
-                Challenges & Solutions: Encountering this data science project involving time series data presented significant challenges, particularly in selecting appropriate models and navigating the complexities of time analysis. To address these hurdles, I embarked on an intensive learning journey, immersing myself in relevant literature, articles, and experimentation with novel modelling techniques. Through perseverance and adaptability, I successfully identified and implemented effective solutions, ultimately achieving a commendable accuracy rate of approximately 80% in training data predictions.
-                Results & Impact: My efforts culminated in the development of a predictive modelling system that demonstrated remarkable accuracy and efficacy in forecasting stock closing prices. With an achieved accuracy rate of 80%, the system proved to be a valuable tool for traders seeking to make informed decisions in the dynamic forex market. By empowering traders with actionable insights derived from cutting-edge deep learning techniques, the project contributed to enhancing trading strategies and optimising investment returns in the fast-paced world of financial markets.
-                '''
-            st.write(project3)
-
-                # Portfolio Project 3 : Machine Learning - Predictive Modelling for Forex Closing Price
+ 
 
         with st.expander(' Efficient Organisational Binary Tree Implementation'):
             project4 = '''In April 2020, as a professional at Wright State University, I undertook a strategic initiative aimed at mastering data structures and demonstrating my proficiency in C++ programming through the development of an efficient organisational binary tree. Over the course of two weeks, I led the design and implementation of a robust binary tree structure, leveraging my experience and expertise in software development to deliver a scalable solution tailored to the specific needs of organisational referencing within a company.
@@ -184,46 +247,9 @@ with st.container():
             '''
             st.write(project4)        
 
-        with st.expander(' Leveraging Machine Learning for Crime Intent Detection in Social Media Posts '):
-            project5 = '''                In September 2023, I spearheaded a groundbreaking research initiative aimed at detecting crime intent in social media posts. This project, documented and published in a research paper titled "Leveraging Machine Learning for Crime Intent Detection in Social Media Posts," stands as a testament to my expertise and commitment to driving innovation in crime detection technology.
 
-                Timeline & Institution: Initiated in September 2023, this project was conducted at Wright State University and continued in my personal capacity as a seasoned researcher. Through strategic leadership, innovative problem-solving, and unwavering dedication, I drove substantial advancements in crime detection technology, reaffirming my position as a leading authority in the field of machine learning.
 
-                Role & Responsibilities: 
-                Led model evaluation for approval, meticulously assessing performance metrics to select robust algorithms for crime intent detection. 
-                Orchestrated the development and implementation of cutting-edge machine learning models, driving advancements in accuracy and reliability.
-                Collaborated with interdisciplinary teams to refine methodologies and techniques, ensuring the effectiveness and scalability of crime detection solutions.
 
-                Work Strategy: To ensure the success of the project, I initiated a rigorous research effort into the most suitable model evaluation techniques for our approach. By evaluating various methodologies and strategies, I aimed to identify the optimal approach to assess the performance of our machine learning models accurately.
-                Challenges: Throughout the project, I encountered challenges related to managing heap memory allocation and dealing with pointers. These complexities posed significant hurdles in the development process, requiring innovative solutions and meticulous attention to detail to overcome.
-                Results & Impact: 
-
-                Achieved a detection accuracy rate of 90%, surpassing industry benchmarks and validating the efficacy of our machine learning models. 
-                Reduced false positive rates by 40%, enhancing the precision and reliability of crime intent detection algorithms.
-                Published research paper garnered over 500 citations within the first year, indicating significant recognition and impact within the academic community.
-
-                Publication Link: Leveraging Machine Learning for Crime Intent Detection in Social Media Posts : (https://www.researchgate.net/publication/375230467_Leveraging_Machine_Learning_for_Crime_Intent_Detection_in_Social_Media_Posts) 
-                '''
-            st.text(project5)
-
-        with st.expander('Interactive Stock Chart'):  
-            project6 = '''    In January 2024, I spearheaded a rapid development project aimed at creating an interactive and responsive stock chart. This project, focused on leveraging Streamlite to build a dynamic visualisation tool for analysing stock trends conveniently and efficiently.
-
-                Role & Responsibilities:
-                Led the importation of real-time stock data and the development of an intuitive and interactive visualisation interface.
-                Collaborated with stakeholders to define project requirements and ensure alignment with user needs and expectations.
-                Implemented robust error handling mechanisms to enhance the stability and reliability of the application under diverse user interactions.
-
-                Work Strategy: To meet the project's tight deadline, I adopted a streamlined approach focused on leveraging Streamlit's capabilities to their fullest extent. By prioritising simplicity and efficiency in development, I ensured the timely delivery of a functional and user-friendly interactive stock chart.
-                Challenges: A significant challenge encountered during the project was managing interactive date-time functionality within the Streamlit framework. Additionally, importing and integrating data for all available stock tickers posed a logistical hurdle. To address these challenges, I conducted thorough research and experimentation, identifying effective solutions to ensure seamless functionality and performance.
-                Results:
-                Developed an ideally responsive and interactive stock chart, featuring the top 20 acclaimed stocks on the market.
-                Implemented intuitive zoom and click functionalities, enhancing accessibility and usability for users.
-                Achieved a user satisfaction rating of 4.5/5 based on post-launch feedback, highlighting the effectiveness and user-friendliness of the application.
-                Number of unique users: 500 within the first week of launch
-                Average session duration: 10 minutes, indicating high engagement and usability.'''     
-
-            st.text(project6)
                 # Portfolio Project 6 : Interactive Stock Chart
 
             
@@ -268,28 +294,7 @@ with st.container():
 
                 # Portfolio Project 8 : IT Project Manager 
 
-        with st.expander('Business Data Analysis '):
 
-            project9 = '''                
-
-                During my tenure as a Business Data Analyst at Stanbic Bank from 2018 to 2019, I played a pivotal role in leveraging data-driven insights to enhance operational efficiency, drive revenue growth, and improve customer experience. Through strategic analysis, innovative problem-solving, and effective collaboration, I spearheaded initiatives aimed at optimising data utilisation, streamlining operations, and increasing digital channel adoption.
-
-                Role & Responsibilities: 
-                Employed Python's visualisation tools, including seaborn and matplotlib, to analyse complex data and present insights in graphical format. By leveraging advanced analytics solutions, I empowered stakeholders to make informed business decisions based on actionable insights derived from data analysis.
-                Collaborated closely with the operations team to design and deploy a data-driven dashboard, providing real-time insights into key performance metrics. This initiative resulted in a remarkable 70% improvement in operational efficiency, enabling the bank to identify and address bottlenecks proactively.
-                Implemented effective data cleaning and warehousing strategies to optimise data quality and accessibility. By streamlining data management processes, I ensured the accuracy and reliability of data insights, empowering stakeholders to make data-driven decisions with confidence.
-                Enhanced user experience and increased adoption of digital channels by enrolling customers on digital platforms such as USSD and Internet Banking. Additionally, I provided effective IT/helpdesk assistance, ensuring seamless customer onboarding and support.
-
-                Work Strategy: My approach to data analysis and project management involved a combination of technical expertise, strategic planning, and effective communication. By understanding stakeholder requirements and business objectives, I developed tailored solutions that addressed specific challenges and delivered measurable results.
-                Challenges: Throughout my tenure at Stanbic Bank, I encountered various challenges, including optimising data quality, driving digital channel adoption, and enhancing operational efficiency. Through proactive problem-solving and effective collaboration, I successfully addressed these challenges, delivering impactful solutions that positively impacted the bank's performance and bottom line.
-                Results: 
-
-                Implemented advanced analytics solutions that provided actionable insights for informed decision-making.
-                Achieved a remarkable 70% improvement in operational efficiency through the deployment of a data-driven dashboard.
-                Drove a 60% increase in user enrollment on digital channels, leading to reduced foot traffic, increased online sales, and a 20% boost in revenue.
-
-                '''
-            st.text(project9)
                 
     if selected == 'Contact':
         st.subheader('Get in touch with me here')

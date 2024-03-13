@@ -118,7 +118,7 @@ if submit_button:
     #
 
     # loading saved model for prediction
-        model_path=os.path.join('static',)
+        model_path=os.path.join('static')
         model_filename = "loan_prediction_model.sav"
         model_path=os.path.join('static',model_filename)
         loan_prediction_model = pickle.load(open(model_path, 'rb'))

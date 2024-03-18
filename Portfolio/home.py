@@ -97,7 +97,7 @@ with st.container():
                 st.markdown('[Interactive Stock Page](https://interactive-stock.streamlit.app/)')
                 st.markdown('[Crime Intent Detection](https://www.researchgate.net/publication/375230467_Leveraging_Machine_Learning_for_Crime_Intent_Detection_in_Social_Media_Posts)')
                 st.markdown('[Attribute-specific Cyberbullyiing Detection](https://journals.bilpubgroup.com/index.php/jeis/article/view/6206/5111)')
-                st.markdown('[Loan approval Predictor](https://lonaprediction.streamlit.app/)')
+                st.markdown('[Loan approval Predictor](https://loan-prediction-mod.streamlit.app/)')
         st.write('---')  
 
         with st.expander(' Machine Learning - Predictive Modelling for Forex Closing Price'):
